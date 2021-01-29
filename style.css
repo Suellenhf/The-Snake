@@ -1,0 +1,70 @@
+/* Projeto Básico */
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Gloria+Hallelujah&display=swap");
+
+html {
+  font-family: "Creepster", cursive;
+  background-color: black;
+}
+
+h1 {
+  width: auto;
+  height: auto;
+  font-size: 48px;
+  border-style: solid black;
+  background-color: rgb(116, 5, 9);
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#score {
+  color: green;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.canvas {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.game-start {
+  color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-start p {
+  font-size: 32px;
+  color: green;
+}
+
+.game-start li {
+  margin: 15px;
+  color: green;
+  text-align: center;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.game-start li > span {
+  color: red;
+}
+
+/*
+#start-btn {
+  font-family: "Creepster", cursive;
+  font-size: 20px;
+  border-style: solid green;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: green;
+} */

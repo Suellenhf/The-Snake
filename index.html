@@ -1,0 +1,35 @@
+<!--Projeto com Style-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The snake</title>
+  </head>
+  <header class="header">
+    <h1>The Snake</h1>
+  </header>
+  <body>
+    <div class="game-start">
+      <p>Playing this game is easy!</p>
+      <ul>
+        <li>Use the arrow keys on your keyboard to move the snake</li>
+        <li>Eat as much supply as you can</li>
+        <li>If you hit your own body</li>
+        <li><span> GAME OVER </span></li>
+      </ul>
+    </div>
+
+    <div class="canvas">
+      <canvas id="snake" width="512" height="512"></canvas>
+    </div>
+
+    <div id="score">Score: 0</div>
+
+    <!-- <div>
+      <button id="start-btn">START HERE</button>
+    </div> -->
+    <script src="./index.js"></script>
+  </body>
+</html>
