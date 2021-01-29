@@ -1,4 +1,4 @@
-# The-Snake
+# The Snake
 final snake project-basic
 
 ### ABOUT THE GAME
