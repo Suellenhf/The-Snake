@@ -1,5 +1,5 @@
 # The Snake
-final snake project-basic
+Final snake project-basic
 
 ### ABOUT THE GAME
 
